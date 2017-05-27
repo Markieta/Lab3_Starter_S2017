@@ -3,4 +3,36 @@
     <string name="press_me_button">Press Me</string>
     <string name="auto_complete_text_view_hint">AutoCompleteTextView</string>
     <string name="auto_complete_text_view_error">This field cannot be blank</string>
+    <string-array name="vocabulary">
+        <item>activity</item>
+        <item>AVD</item>
+        <item>ART</item>
+        <item>Dalvik</item>
+        <item>intent</item>
+        <item>intent filter</item>
+        <item>explicit intent</item>
+        <item>implicit intent</item>
+        <item>LogCat</item>
+        <item>bundle</item>
+        <item>Gradle</item>
+        <item>Android Device Monitor</item>
+        <item>SDK manager</item>
+        <item>minSdkVersion</item>
+    </string-array>
+    <string-array name="vocabularyDefinitions">
+        <item>Java code to support UI.</item>
+        <item>Android Virtual Device (emulator).</item>
+        <item>Newer runtime environment that supersedes Dalvik.</item>
+        <item>Discontinued runtime process virtual machine.</item>
+        <item>Preparation to do some action (has an intention of doing).</item>
+        <item>Catch statement for an activity to be selected as per intent.</item>
+        <item>References Activities by class name.</item>
+        <item>References Activities generically (normally caught by intent-filters).</item>
+        <item>Outputs logging and debugging information in Android Studio. Named after Nyan Cat.</item>
+        <item>Object mapping strings to various parcelable values.</item>
+        <item>Open source build automation system.</item>
+        <item>Standalone software providing UI for several debugging and analysis tools.</item>
+        <item>Appliance to download/manage Android SDKs.</item>
+        <item>Minimum SDK version that can run an application.</item>
+    </string-array>
 </resources>

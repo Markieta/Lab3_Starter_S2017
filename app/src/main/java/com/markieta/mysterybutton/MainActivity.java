@@ -3,6 +3,7 @@ package com.markieta.mysterybutton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -24,7 +25,11 @@ public class MainActivity extends AppCompatActivity {
         layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
 
-        //TODO: populate the AutoCompleteTextView using an ArrayAdapter for String arrays
+        String[] vocabulary = getResources().getStringArray(R.array.vocabulary);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
+                android.R.layout.simple_dropdown_item_1line, vocabulary);
+
+        autoCompleteTextView.setAdapter(adapter);
 
         Button pressMe = (Button) findViewById(R.id.pressMeButton);
         pressMe.setOnClickListener(new View.OnClickListener() {
