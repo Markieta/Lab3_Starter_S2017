@@ -1,4 +1,4 @@
-package com.example.mareklaskowski.lab3_starter_s2017;
+package com.markieta.mysterybutton;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.mareklaskowski.lab3_starter_s2017", appContext.getPackageName());
+        assertEquals("com.markieta.mysterybutton", appContext.getPackageName());
     }
 }

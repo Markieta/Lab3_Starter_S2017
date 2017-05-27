@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Mystery Button</string>
+    <string name="press_me_button">Press Me</string>
+    <string name="auto_complete_text_view_hint">AutoCompleteTextView</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.mareklaskowski.lab3_starter_s2017;
+package com.markieta.mysterybutton;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
